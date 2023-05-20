@@ -293,6 +293,12 @@ input[type=button] {
   /*width: 100%;*/
 }
 
+.developer-skills h4,
+.tech-stack h4 {
+  width: 100%;
+  display: block;
+}
+
 .developer-skills ul,
 .tech-stack ul{  
   width: 45%;
