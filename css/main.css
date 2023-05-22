@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -109,6 +110,7 @@ ul {
 a {
   text-decoration: none;
   background-color: transparent;
+  color: inherit;
 }
 
 h1 { 
@@ -157,7 +159,7 @@ span {
 }
  
 address {
-  font-style: normal;
+  font-style: normal; 
 }
  
 .content-wrapper {
@@ -299,10 +301,10 @@ input[type=button] {
   display: block;
 }
 
-.developer-skills ul,
+/*.developer-skills ul,
 .tech-stack ul{  
   width: 45%;
-}
+}*/
 
 .developer-skills li,
 .tech-stack li{  
@@ -344,13 +346,12 @@ input[type=button] {
   flex-flow: row wrap;
   flex-direction: column;
   background-color: #453E4F;
-  color: #FFE8D6;
+  color: #FFE8D6; 
 }
 
 .contact .social-info {
   display: flex;  
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center; 
 }
 
 .contact .social-info p {
@@ -361,6 +362,7 @@ input[type=button] {
   width: 40px;
   height: 40px; 
   border: 1px solid;
+  margin: 0 20px;
 }
 
 .contact .social-info a{
