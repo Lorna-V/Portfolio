@@ -292,7 +292,6 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   align-items: center;
-  /*width: 100%;*/
 }
 
 .developer-skills h4,
@@ -300,11 +299,6 @@ input[type=button] {
   width: 100%;
   display: block;
 }
-
-/*.developer-skills ul,
-.tech-stack ul{  
-  width: 45%;
-}*/
 
 .developer-skills li,
 .tech-stack li{  
@@ -524,7 +518,7 @@ header h2 {
 }
 
 .projects article {
-  width: 45%; 
+  width: 40%; 
   align-items: center;
 }
 
@@ -634,7 +628,7 @@ header h2 {
 
 .about figure {
   width: 50%;
-  margin-top: 20px;
+  margin-top: 80px; 
 }
 
 .about aside {
